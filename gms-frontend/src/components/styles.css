@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  background-color: #007acc;
+  color: white;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.dashboard {
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: left;
+}
+
+.add-gauge-form input,
+.add-gauge-form button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.add-gauge-form button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-gauge-form button:hover {
+  background-color: #005fa3;
+}
+
+.gauge-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.gauge-list li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #007acc;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #005fa3;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+.gauges-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.gauges-table th, .gauges-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.gauges-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.gauges-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.gauges-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 10px 0;
+}
+
+h3 {
+  color: white;
+  font-size: 24px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+ul li a:hover {
+  background-color: #1c3d8f;
+}
